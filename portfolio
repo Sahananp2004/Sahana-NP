@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sahana N P | Portfolio</title>
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #1abc9c, #2c3e50);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Navbar */
+nav {
+  background: #2c3e50;
+  padding: 12px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #1abc9c;
+}
+
+/* Sections */
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Skills list */
+ul li {
+  margin: 8px 0;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #1abc9c;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: #16a085;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Sahana N P</h1>
+  <p>Computer Science Engineer</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#training">Training</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- About -->
+
+<section id="about">
+<h2>Career Objective</h2>
+<div class="card">
+<p>
+Motivated and eager Computer Science graduate seeking an opportunity to apply my skills in a dynamic work environment. 
+Passionate about continuous learning, teamwork, and building real-world applications.
+</p>
+</div>
+</section>
+
+<!-- Skills -->
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="card">
+<ul>
+<li><b>Programming:</b> C, Python, Java (Basics)</li>
+<li><b>Web:</b> HTML, CSS, JavaScript</li>
+<li><b>Database:</b> MySQL</li>
+<li><b>Tools:</b> VSCode, Eclipse</li>
+<li><b>Soft Skills:</b> Communication, Problem Solving, Teamwork</li>
+</ul>
+</div>
+</section>
+
+<!-- Projects -->
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="card">
+<h3>Face Emotion Detection using CNN</h3>
+<p>Detects emotions using deep learning.</p>
+</div>
+
+<div class="card">
+<h3>Attendance Monitoring System</h3>
+<p>Automated attendance using face recognition.</p>
+</div>
+
+<div class="card">
+<h3>Kidney Tumor Detection</h3>
+<p>Detects tumors using deep learning models.</p>
+</div>
+
+<div class="card">
+<h3>Task Management System</h3>
+<p>Manage tasks with add, edit, delete and tracking features.</p>
+</div>
+
+</section>
+
+<!-- Training -->
+
+<section id="training">
+<h2>Training & Certifications</h2>
+
+<div class="card">
+<h3>KodNest – Software Testing Course</h3>
+<p>
+Currently undergoing professional training in Software Testing at KodNest.
+</p>
+</div>
+
+<div class="card">
+<p>✔ Infosys Springboard – Python</p>
+<p>✔ Udemy – Cloud Computing</p>
+<p>✔ Cyber Security Internship</p>
+<p>✔ VTU Internship – IBM</p>
+</div>
+
+</section>
+
+<!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <p><b>BE in Computer Science</b> – Maharaja Institute of Technology, Thandavapura</p>
+      <p><b>PU:</b> Citizens’ Composite PU College </p>
+      <p><b>School:</b> Samudra Public School</p>
+    </div>
+  </section>
+
+
+<!-- Contact -->
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="card">
+<p>Email: sahananp64@gmail.com</p>
+<p>Phone: 8431433136</p>
+<p><a href="https://github.com/Sahananp2004" target="_blank">GitHub</a></p>
+
+
+
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Sahana N P</p>
+</footer>
+
+</body>
+</html>
